@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+/*
+  Сброс плавающих элементов
+*/
+.clearfix {
+    clear: both;
+}
+/*
+  Шапка
+*/
+.header {
+    overflow: hidden;
+    margin-left: 70px;
+}
+
+.header ul {
+    list-style: none;
+    margin-top: 32px;
+}
+
+.header li {
+    float: left;
+    margin-left: 146px;
+}
+
+.header a {
+    color: #828282;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color .3s;
+}
+
+.header a:hover,
+.header a.active
+ {
+    color: #070707;
+}
+
+.line{
+    width: 955px;
+    margin-top: 90px;
+    margin-left: 145px;
+    border-bottom: 1px solid #828282;
+}
+
+.wrapper{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.name{
+    font-size: 47px;
+    margin-top: 40px;
+}
+
+.info{
+    margin-left: 435px;
+    margin-top: -45px;
+    font-weight: 500;
+}
+
+.foto__autor{
+    margin-top: 30px;
+}
+
+.denis{
+    margin-left: 215px;
+}
+
+.fon{
+    position: absolute;
+    background-color: #F6F6F6;
+    width: 1903px;
+    height: 500px;
+    margin-top: 105px;
+}
+
+.about{
+    margin-left: 240px;
+}
+.about__autor{
+    position: relative;
+    margin-top: 120px;
+}
+
+#about__title{
+    font-size: 34px;
+    margin-top: 225px;
+    margin-left: 350px;
+}
+
+.about__info1,
+.about__info1_1,
+.about__info2,
+.about__info2_1,
+.about__info3,
+.about__info3_1{
+    font-weight: 500;
+}
+
+.about__info1{
+    margin-top: 30px;
+    margin-left: 280px;
+}
+
+.about__info1_1{
+   margin-left: 220px;
+}
+
+.about__info2{
+    margin-top: 45px;
+   margin-left: 250px;
+}
+
+.about__info2_1{
+    margin-left: 340px;
+}
+
+.about__info3{
+    margin-top: 45px;
+    margin-left: 290px;
+}
+
+.about__info3_1{
+    margin-left: 355px;
+}
+
+#skill__title{
+    font-size: 34px;
+    margin-top: 210px;
+    margin-left: 650px;
+}
+
+.skill__other{
+    margin-top: 70px;
+    margin-left: 590px;
+    font-weight: 500;
+}
+
+.skill__foto{
+    margin-left: 215px;
+    margin-top: 83px;
+}
+
+.foto2,
+.foto3,
+.foto4{
+    margin-left: 90px;
+}
+
+#portfolio__title{
+    font-size: 34px;
+    margin-top: 220px;
+    margin-left: 620px;
+}
+
+.woman{
+    margin-left: 200px;
+    margin-top: 47px;
+}
+
+.woman__text a{
+    position: absolute;
+    font-weight: 500;
+    color: black;
+    margin-top: 45px;
+    margin-left: 560px;
+}
+
+.man{
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+.man__text a{
+    position: absolute;
+    font-weight: 500;
+    color: black;
+    margin-left: 580px;
+    margin-top: 45px;
+}
+
+.kamera{
+    position: relative;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+.kamera__text a{
+    position: absolute;
+    font-weight: 500;
+    color: black;
+    margin-left: 560px;
+    margin-top: 45px;
+}
+
+#contacts__title{
+    font-size: 34px;
+    margin-top: 210px;
+    margin-left: 600px;
+}
+
+.contacts__info1{
+    font-weight: 500;
+    margin-top: 25px;
+    margin-left: 550px;
+}
+
+.contacts__info2{
+    font-weight: 500;
+    margin-top: 5px;
+    margin-left: 59px;
+}
+
+button{
+    width: 180px;
+    height: 42px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-left: 595px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.social{
+    margin-top: 50px;
+    margin-left: 515px;
+}
+
+.inst,
+.be,
+.ball{
+    margin-left: 60px;
+}
+
+.other{
+    color: #828282;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 45px;
+    margin-left: 650px;
+}
+
+.other__2{
+    color: #828282;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 220px;
+    margin-left: 560px;
+
+}

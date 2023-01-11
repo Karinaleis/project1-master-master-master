@@ -1,0 +1,44 @@
+@media (max-width: 1100px) {
+    .wrapper {
+        margin-left: -150px;
+    }
+    #portfolio__title{
+        margin-left: 480px;
+    }
+    .woman{
+        margin-left: 100px;
+    }
+    .woman__text a{
+        margin-left: 450px;
+    }
+    .man{
+        margin-left: 100px;
+    }
+    .man__text a{
+        margin-left: 480px;
+    }
+    .kamera{
+        margin-left: 100px;
+    }
+    .kamera__text a{
+        margin-left: 450px;
+    }
+    #contacts__title{
+        margin-left: 480px;
+    }
+    .contacts__info1{
+        margin-left: 430px;
+    }
+    button{
+        margin-left: 475px;
+    }
+    .social{
+        margin-left: 400px;
+    }
+    .other{
+        margin-left: 520px;
+    }
+    .other__2{
+        margin-left: 430px;
+    }
+}
